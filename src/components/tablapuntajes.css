@@ -1,0 +1,9 @@
+.table{color:antiquewhite;}
+.table tr{width: 0.05rem;}
+.table th, .table td {
+    padding: 0.01rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+    
+}
+.table td{margin: 0 0.4rem;padding: 2px;}

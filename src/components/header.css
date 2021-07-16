@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+
+.conteiner{
+    text-align:center;
+    height: 100px;
+    margin: 0;
+    padding: 10px 10px;
+    background-color: darkslategray;  
+}
+.left{
+    float: left;
+   
+}
+.right{
+    float: right;
+    
+}
+.center{
+   
+  
+}
+.header{}
+.reiniciar{
+    
+    margin: 10px 10px 0 0;
+}
+
+.titulo {
+    /* display: flex; */
+   margin: 0;
+   font-size: 3.5vw;
+    /* padding: 10px; */
+    color: white;
+    font-family:  'Permanent Marker', cursive;
+}
+
+
+.img-logo{
+    width: 6.5vw;
+margin: 0.3vw 1.2vw;
+}
+
+@media screen and (min-width: 800px){
+    .container {
+        display:block;
+      flex-direction: column;
+    }
+
+  }

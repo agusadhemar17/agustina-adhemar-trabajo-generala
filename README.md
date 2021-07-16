@@ -1,6 +1,4 @@
-# unq-ui-agustina-adhemar-trabajo-final
-
-Este proyecto correponde al trabajo final de la materia Construcción de Interfaces de usuario de TPI de la UNQ. 
+Este proyecto correponde al trabajo integrador de la materia Construcción de Interfaces de usuario de TPI de la UNQ. 
 
 Juego: Generala
 
@@ -11,4 +9,5 @@ Para correr este proyecto:
 3. Ejecuta npm start para ejecutar la aplicación.
 
 En este proyecto está por defecto el puerto 3000, no es necesario configurar ninguno. 
-Abrir en el brownse predeterminado http://localhost: 3000
+Abrir en el brownse predeterminado http://localhost:3000
+

@@ -1,0 +1,33 @@
+
+
+/*BOTONES//*/
+.btn-general{ font-size: 16px; 
+  background-color: #9b1c1f;
+  color:white;
+  border-radius: 8px;
+  margin: 3% 0;
+  border: none;
+  padding: 15px 28px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  }
+  
+  .btn-general:hover{
+    background-color: #1883ba;
+    color:white;
+    text-decoration: none;
+  }
+
+body {
+  background-color: #1d2d4b;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  }
+
+

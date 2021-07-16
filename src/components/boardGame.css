@@ -1,0 +1,152 @@
+ .tablet{
+    display: none;
+height: 30px;
+width: 30px;
+position: absolute;
+top: 50%;
+left: -30px;
+cursor: pointer;
+background: #3a1a1f;
+border-radius: 5px 0 0 5px;
+z-index: 10;
+} 
+
+.tablero-puntos{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 3px;
+grid-row-gap: 0px;
+color: aliceblue;
+}
+
+
+.boardGame {
+    display: flex;
+    flex-wrap:wrap;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+.score{
+    height: 80px;
+    border: 1px solid rgb(231, 230, 230);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Chewy', cursive;
+}
+.btn-img{
+  background-color: goldenrod;
+  border-radius: 4px;
+  border: 2px solid teal;
+  margin: 15px;
+  
+  }
+.btn-img:hover {
+  transform: scale(1.25); 
+  transition:  all .5s;
+}
+.btn-error{
+font-size: 16px;
+background-color:#1d2d4b;
+color: #9b1c1f;
+border-radius: 8px;
+margin: 3% 0;
+border: none;
+padding: 15px 28px;
+text-align: center;
+display: inline-block;
+text-decoration: none;}
+
+.contenedor-card-select{
+  float: center;
+  margin-right: 30px goldenrod;
+  background-color: goldenrod;
+  border-radius: 4px;
+  border: 2px solid teal;
+  box-shadow: 6px 5px 5px rgb(133, 133, 133);
+  width:"150";
+  height:"150";
+ 
+ }
+
+.header-point-lg{
+  font-family: 'Chewy', cursive;
+  font-size: 40px;
+  justify-content: space-between;
+  align-content: center;
+ 
+}
+
+.header-point-m{
+  font-family: 'Chewy', cursive;
+  font-size: 35px;
+  height: 50px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;;
+  align-content: center;
+ 
+}
+
+.header-point-sm {
+  font-family: 'Chewy', cursive;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;;
+  
+}
+ 
+  .btn-general:hover{
+    color: #1883ba;
+    background-color: whitesmoke;
+    transition:  all .3s;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: flex-start;
+  }
+
+
+.zoom {
+  padding: 8px;
+  height: 250;
+  /* box-shadow: 2px 5px 10px 0px whitesmoke (255,255,255,0.5); */
+  transition:  all .3s;  
+  display: inline-block;
+  
+}
+
+.zoom:hover {
+  transform: scale(1.25); 
+ 
+}
+.header{
+  display: grid;
+  align-items: center;
+  height:20%;
+  justify-content: center;
+}
+
+.dices{display: flex; margin-top: 5%;  column-gap: 20px;  justify-content: center;   flex-wrap: wrap;   }
+img{margin: 0 2%;}
+.main{  margin: 5px;display: flex;justify-content: space-around;}
+.btn{  margin-top: 5%;  width: 100px;  height: 50px;  background-color: #9b1c1f;  color: white;}
+.btn:hover{  background-color: #1883ba;}
+.wraper{ display: flex;  justify-content: center;  align-content: space-around;}
+
+/* TABLA   */
+
+.dices p{ color :rgb(231, 230, 230); background-color: #9b1c1f; padding: 2px 20px;margin: 0 0.2vw 10px 0px; width:20vw ; text-align: center;}
+img {margin: 0 0.4rem;  }
+.tbody td{border-bottom: none;}
+#d1 #d2 #d3 #d4 #d5{ margin: auto;  padding: auto !important;}
